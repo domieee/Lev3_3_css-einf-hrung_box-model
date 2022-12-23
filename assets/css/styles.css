@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+@FONT-FACES
+# cinzelVariable
+# poppinsRegular
+# poppinsSemiBold
+*/
+
+@font-face {
+    font-family: cinzelVariable;
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: poppinsSemiBold;
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+.headerTraveler {
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.headerTraveler a {
+    font-family: cinzelVariable;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-bottom: 17px;
+}
+
+.pageLanding {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pageLanding article {
+    display: flex;
+    width: 100vh;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pageLanding img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.pageLanding article p {
+    font-family: cinzelVariable;
+    color: white;
+    font-size: 5rem;
+}
+
+main .tripSection {
+    margin: 0 auto 120px auto;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+main .tripSection h2 {
+    margin-bottom: 20px;
+    font-family: cinzelVariable;
+}
+
+main .tripSection p {
+    margin-bottom: 40px;
+    font-family: poppinsRegular;
+}
+
+main .tripSection img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sectionTourDates {
+    border-bottom: #ccc 1px solid;
+    margin: 0 200px;
+}
+
+.sectionTourDates h2 {
+    font-family: cinzelVariable;
+    text-align: center;
+}
+
+.sectionTourDates p {
+    font-family: poppinsRegular;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.sectionTourDates p:nth-child(7) {
+    padding-bottom: 60px;
+
+}
+
+.sectionContactUs h2 {
+    font-family: cinzelVariable;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p span {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+    font-size: 14px;
+    border-radius: 5px;
+}
